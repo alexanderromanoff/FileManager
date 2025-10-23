@@ -30,7 +30,7 @@ If no argument is passed, the command will print the contents of the current dir
 The directories are printed with a slash symbol '/' in the end.
 
 ### stat
-Prints the number of files, diectories and the total number of entries in the given directory. May take one argument - the path to a directory.
+Prints the number of files, directories and the total number of entries in the given directory. May take one argument - the path to a directory.
 If no argument is passed, the command will be executed at the current directory.
 
 ### cd
@@ -40,6 +40,7 @@ If no argument is passed, the current directory will be set to home. You may als
 ### exit
 Quits the FileManager, goes back to shell. Ignores any given arguments.
 
+###### Note:
 The flags aren't provided.
 If the commands are used with invalid arguments or on the directories with limited permissions, the warning will appear.
 
