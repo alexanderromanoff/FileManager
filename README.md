@@ -21,6 +21,11 @@ This will start the FileManager in the same termianl.
 It's used as a regular linux terminal. You will see the welocme prompt stating the current directory.
 You can execute several standard linux commands: 
 
+
+###### Note:
+The flags aren't provided.
+If the commands are used with invalid arguments or on the directories with limited permissions, the warning will appear.
+
 ### pwd
 Prints the current directory. Takes no arguments.
 
@@ -39,10 +44,6 @@ If no argument is passed, the current directory will be set to home. You may als
 
 ### exit
 Quits the FileManager, goes back to shell. Ignores any given arguments.
-
-###### Note:
-The flags aren't provided.
-If the commands are used with invalid arguments or on the directories with limited permissions, the warning will appear.
 
 ## Usage example
 <img width="786" height="537" alt="image" src="https://github.com/user-attachments/assets/f536b68c-c28b-466e-bea7-afd670bb0953" />
