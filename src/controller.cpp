@@ -4,6 +4,8 @@
 
 // COMMANDS
 std::string ICommand::resolvePath(std::string& tPath){
+    if(tPath == ".") return fs::current_path().string();
+    if(tPath == "..") return fs::current_path().parent_path().string();
 	return tPath[0] == '~' && tPath.size() >=1 ? std::getenv("HOME") + tPath.substr(1) : tPath;
 }
 
